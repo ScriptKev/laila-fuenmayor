@@ -40,18 +40,22 @@ export const InfoSection = () => {
   const { current: elements2 } = useRef(elementsInfo2)
 
   return (
-    <section className='min-h-screen w-full text-center py-10 px-10' style={{ backgroundColor: '#e4c6a4' }}>
-      <h4 className='text-secondary-300 text-2xl font-bold'>
-        Hay razones principales que dificultan el disfrute y el alcance del éxito en profesionales y emprendedores
+    <section className='min-h-screen w-full text-center py-10 px-5 md:px-10' style={{ backgroundColor: '#e4c6a4' }}>
+      <h4 className='text-secondary-300 text-3xl font-bold'>
+        Hay 3 razones principales que dificultan el disfrute y alcance del éxito en profesionales y emprendedores
       </h4>
       <br />
       <div className='w-32 h-0.5 mx-auto bg-primary-300'></div>
       <br />
-      <span className='text-gray-800 font-medium'>¿Cuál de estas te está afectando mas en este momento?</span>
+      <span className='text-gray-700 font-medium'>¿Cuál de estas te está afectando mas en este momento?</span>
 
       <div className='max-w-6xl mx-auto flex flex-row flex-wrap justify-center items-start mt-4'>
         {elements.map((item) => (
-          <article key={item.title} className='text-center mx-4 my-4 p-4 w-124 h-72 rounded-2xl' style={{ backgroundColor: '#C2B1C4' }}>
+          <article
+            key={item.title}
+            className='text-center mx-0 md:mx-4 my-4 p-4 w-full md:w-124 h-full md:h-72 rounded-2xl'
+            style={{ backgroundColor: '#C2B1C4' }}
+          >
             <h4 className='text-gray-700 text-lg font-semibold'>{item.title}</h4>
             <br />
             <p className='text-gray-600 text-sm font-medium'>{item.content}</p>
@@ -65,10 +69,12 @@ export const InfoSection = () => {
       <br />
 
       <p className='text-gray-700 font-medium'>
-        Las personas que llegan a mí, todas tienen habilidades maravillosas y la capacidad de alcanzar cualquier cosa que se propongan. <br />
+        Las personas que llegan a mí, todas tienen habilidades maravillosas y la capacidad de alcanzar cualquier cosa que se propongan.
+        <br className='hidden md:inline-block' />
         Sin embargo, al no saber reconocer su manera de lograrlo se sienten estancadas, inseguras y no disfrutan el camino.
       </p>
       <br />
+      <br className='md:hidden' />
 
       <span className='font-bold text-3xl text-primary-300'>
         Por lo general estas personas han <br /> vivido alguna de estas 3 situaciones
@@ -76,7 +82,7 @@ export const InfoSection = () => {
 
       <div className='max-w-6xl mx-auto flex flex-row flex-wrap justify-center items-center mt-4'>
         {elements2.map((item) => (
-          <article key={item.title} className='text-center mx-4 my-4 w-96 h-44 p-4 rounded-2xl bg-primary-300 text-white'>
+          <article key={item.title} className='text-center md:mx-4 my-4 w-96 h-full md:h-44 p-4 rounded-3xl bg-primary-300 text-white'>
             <span className='font-bold text-4xl'>{item.title}</span>
             <p className='font-light mt-2'>{item.content}</p>
           </article>

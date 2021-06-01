@@ -30,6 +30,13 @@ module.exports = {
       multi2: ['mutli2', ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      screens: {
+        'hxs': {'raw': '(min-height: 565px) and (max-width: 767px)'},
+        'hsm': {'raw': '(min-height: 640px) and (max-width: 767px)'},
+        'hmd': {'raw': '(min-height: 731px) and (max-width: 767px)'},
+        'hlg': {'raw': '(min-height: 1024px) and (max-width: 767px)'},
+        'hxl': {'raw': '(min-height: 1366px) and (max-width: 767px)'},
+      },
       spacing: {
         '22.5': '5.5rem',
         '104': '27rem',

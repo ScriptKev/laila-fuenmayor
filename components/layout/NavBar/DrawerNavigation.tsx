@@ -5,13 +5,9 @@ import Link from 'next/link'
 export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boolean; handleIsOpenDrawer: () => void }) => {
   const routesLink = [
     { label: 'Inicio', to: '/' },
-    { label: 'Reservaciones', to: '/reservaciones' },
-    { label: 'Blog', to: '/blog' },
-    { label: 'Predicas', to: '/recursos/predicas' },
-    { label: 'Estudios Bíblicos', to: '/recursos/estudios-biblicos' },
-    { label: 'Peticiones de Oración', to: '/oracion' },
-    { label: 'Contáctanos', to: '/contactanos' },
-    { label: 'Live', to: '/live' },
+    { label: 'Ayuda', to: '/reservaciones' },
+    { label: 'Cursos', to: '/blog' },
+    { label: 'Contacto', to: '/recursos/predicas' },
   ]
 
   return (

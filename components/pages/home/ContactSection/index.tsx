@@ -32,7 +32,7 @@ export const ContactSection = () => {
           </div>
           <div className='lg:w-1/2 md:w-2/3 mx-auto'>
             <div className='flex flex-wrap -m-2'>
-              <div className='p-2 w-1/2'>
+              <div className='p-2 w-full md:w-1/2'>
                 <div className='relative'>
                   <input
                     {...register('name', rules.name)}
@@ -40,12 +40,12 @@ export const ContactSection = () => {
                     id='name'
                     name='name'
                     placeholder='Tu nombre'
-                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='placeholder-center border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
 
-              <div className='p-2 w-1/2'>
+              <div className='p-2 w-full md:w-1/2'>
                 <div className='relative'>
                   <input
                     {...register('name', rules.email)}
@@ -58,7 +58,7 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className='p-2 w-1/2'>
+              <div className='p-2 w-full md:w-1/2'>
                 <div className='relative'>
                   <input
                     {...register('phone', rules.phone)}
@@ -71,7 +71,7 @@ export const ContactSection = () => {
                 </div>
               </div>
 
-              <div className='p-2 w-1/2'>
+              <div className='p-2 w-full md:w-1/2'>
                 <div className='relative'>
                   <input
                     {...register('date')}
@@ -90,14 +90,14 @@ export const ContactSection = () => {
                     {...register('name', rules.message)}
                     id='message'
                     name='message'
-                    placeholder='Write your message here'
-                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 h-32 text-base outline-none text-white py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                    placeholder='Escribe tu mensaje aquí'
+                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 h-48 md:h-32 text-base outline-none text-white py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
                   ></textarea>
                 </div>
               </div>
 
               <div className='mt-2 w-full text-center'>
-                <button className='font-semibold mx-auto px-14 py-3 text-white rounded-xl-full rounded-full bg-secondary-300 text-sm hover:bg-opacity-90'>
+                <button className='font-semibold mx-auto px-8 md:px-14 py-4 text-white rounded-xl-full rounded-full bg-secondary-300 text-lg md:text-sm hover:bg-opacity-90'>
                   Enviar Mensaje
                 </button>
               </div>

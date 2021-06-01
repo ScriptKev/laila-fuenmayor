@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>laila-fuenmayor</title>
+        <title>Laila Fuenmayor</title>
       </Head>
 
       <HeaderCarousel />

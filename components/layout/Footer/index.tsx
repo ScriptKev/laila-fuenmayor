@@ -1,5 +1,9 @@
 export const Footer = () => (
-  <footer className='bg-secondary-300 py-6 text-center'>
-    <small className='text-white font-semibold'>© 2021 Designed by Eloin Lacera. All Rights Reserved.</small>
+  <footer className='bg-secondary-300 py-6 text-center px-4'>
+    <small className='text-white font-bold text-lg'>
+      © 2021 <br className='md:hidden' />
+      Designed by Eloin Lacera. <br className='md:hidden' />
+      All Rights Reserved.
+    </small>
   </footer>
 )
