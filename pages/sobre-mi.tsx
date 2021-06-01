@@ -4,7 +4,7 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>Acerca de mi - Laila Fuenmayor</title>
+        <title>Sobre de mi - Laila Fuenmayor</title>
       </Head>
 
       <div className='pt-40 flex flex-col justify-center items-center text-center'>
@@ -12,7 +12,7 @@ export default function AboutPage() {
           <img src='/img/commons/mantenimiento.svg' width={300} height={300} />
         </figure>
         <br />
-        <span className='text-2xl font-bold text-gray-700'>Pagina /about En Construcción</span>
+        <span className='text-2xl font-bold text-gray-700'>Pagina /sobre-mi En Construcción</span>
       </div>
     </>
   )

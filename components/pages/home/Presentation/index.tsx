@@ -3,7 +3,7 @@
 export const PresentationSection = () => {
   return (
     <>
-      <section className='h-80 md:h-screen-25 w-full z-0 relative md:py-10 bg-presentationBg bg-right bg-no-repeat bg-cover'>
+      <section className='h-80 md:h-screen-25 w-full z-0 relative md:py-10 bg-presentationBg bg-right sm:bg-center bg-no-repeat bg-cover'>
         {/* <Image alt='Mountains' src='/img/homePage/presentationBg.png' layout='fill' objectFit='cover' quality={100} /> */}
 
         <div className='text-left pl-20 w-170 h-full place-content-center hidden md:flex flex-col justify-center items-center'>

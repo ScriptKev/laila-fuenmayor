@@ -5,14 +5,16 @@ import Link from 'next/link'
 export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boolean; handleIsOpenDrawer: () => void }) => {
   const routesLink = [
     { label: 'Inicio', to: '/' },
-    { label: 'Ayuda', to: '/reservaciones' },
-    { label: 'Cursos', to: '/blog' },
-    { label: 'Contacto', to: '/recursos/predicas' },
+    { label: 'Ayuda', to: '/ayuda' },
+    { label: 'Sobre mi', to: '/sobre-mi' },
+    { label: 'Cursos', to: '/cursos' },
+    { label: 'Contacto', to: '/contacto' },
   ]
 
   return (
     <div
-      className={`lgmin:hidden z-30 fixed bg-lcpBlue-350 opacity-90 w-full h-screen flex justify-center top-0 transition-all transform duration-300 ease-in-out ${
+      style={{ backgroundColor: '#6e4f70' }}
+      className={`lgmin:hidden z-30 fixed opacity-90 w-full h-screen flex justify-center top-0 transition-all transform duration-300 ease-in-out ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}
     >
@@ -26,9 +28,9 @@ export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boole
         </button>
 
         <div className='w-full h-full flex justify-start items-center flex-col'>
-          <section className='mt-10'>
+          <section className='mt-10 w-80'>
             <picture>
-              <Image className='pt-20' src='/img/logo.webp' alt='La Casa de mi Padre - Logo' width={65} height={36} priority />
+              <Image src='/logo.png' height={69} width={470} className='mx-auto' />
             </picture>
           </section>
 
@@ -38,7 +40,7 @@ export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boole
                 <Link href={route.to} key={route.to}>
                   <a
                     onClick={handleIsOpenDrawer}
-                    className='border mt-4 border-solid border-yellow-500 w-40 py-2 rounded-2xl text-xs font-normal text-center text-white'
+                    className='border-2 mt-4 border-solid border-secondary-300 w-40 py-2 rounded-2xl text-xs font-normal text-center text-white'
                   >
                     {route.label}
                   </a>
