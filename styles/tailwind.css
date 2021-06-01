@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Input Select */
+@layer base {
+  select {
+    background-image: url('/icons/arrow-down.svg');
+  }
+}
+
+@font-face {
+  font-family: 'hottemp';
+  src: url('/fonts/hottemp/hottemp.otf');
+  font-style: normal;
+  font-weight: 300;
+  font-display: inherit;
+}
+
+@font-face {
+  font-family: 'mutli';
+  src: url('/fonts/multi/multi_semibold.otf');
+  font-style: normal;
+  font-weight: 600;
+  font-display: inherit;
+}
+
+@font-face {
+  font-family: 'mutli';
+  src: url('/fonts/multi/multi_bold.otf');
+  font-style: normal;
+  font-weight: 700;
+  font-display: inherit;
+}
+
+@font-face {
+  font-family: 'mutli2';
+  src: url('/fonts/multi/multi2_bold.otf');
+  font-style: normal;
+  font-weight: 700;
+  font-display: inherit;
+}
+
+@import './spinner.css';
+@import './icons.css';
+@import './utils.css';
