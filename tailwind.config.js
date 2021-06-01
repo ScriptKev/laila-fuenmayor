@@ -37,8 +37,9 @@ module.exports = {
         '152': '33rem',
         '170': '36rem',
         'screen-25': '125vh',
-        'screen-30': '30vh',
-        'screen-35': '135vh'
+        'screen-30': '130vh',
+        'screen-35': '135vh',
+        'screen-235': '235vh'
       },
       gridTemplateColumns: {
        'galleryLayout': 'minmax(750px, 1fr) 1fr',
@@ -58,6 +59,10 @@ module.exports = {
 
       backgroundImage: (theme) => ({
         presentationBg: "url('/img/homePage/presentationBg.png')",
+        priceBg: "url('/img/coursesPage/priceBg.png')",
+        masterclassBg: "url('/img/coursesPage/masterclassBg.png')",
+        warrantyBg: "url('/img/coursesPage/warrantyBg.png')",
+        CTABg: "url('/img/coursesPage/CTABg.png')",
       }),
     },
   },

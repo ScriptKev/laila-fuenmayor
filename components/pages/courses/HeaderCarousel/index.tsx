@@ -10,17 +10,17 @@ SwiperCore.use([Pagination])
 
 export const Items = () => (
   <div className='h-screen w-full overflow-hidden z-0 relative'>
-    <Image alt='Mountains' src='https://picsum.photos/1920/1080' layout='fill' objectFit='cover' quality={100} />
+    <Image alt='Mountains' src='/img/homePage/carousel/homeCarouselItem1.png' layout='fill' objectFit='cover' quality={100} />
 
-    <div className='h-56 w-96 bg-white absolute top-60 left-10 text-center'>
-      <span className='text-primary-300 text-3xl'>Enamorate del Sello</span> <br />
-      <p className='text-gray-700 mt-4'>
-        Descubre y ama tanto tus talentos que <br />
-        puedas crecer exponencialmente, sin <br />
-        necesidad de corregir tus &quot;debilidades&quot;
-      </p>{' '}
+    <div className='h-56 w-124 bg-transparent absolute top-48 left-10 text-center'>
+      <h3 className='font-semibold text-secondary-300'>Cursos Online</h3>
       <br />
-      <button className='px-14 py-2 text-white rounded-full bg-primary-300 text-sm'>¡Lo quiero!</button>
+      <span className='text-primary-300 text-7xl font-hottemp'>Enamorate del Sello</span> <br />
+      <p className='text-gray-700 mt-4 font-semibold text-sm'>
+        Únete a este programa virtual de 6 semanas que te dará los ingredientes claves para salir de la mentalidad de &quot;corregir debilidades&quot;
+        y aprender a amar el recurso más importante en el que te puedes apalancar para lograr con disfrute lo que quieres: tu combinación única de
+        talentos.
+      </p>
     </div>
   </div>
 )

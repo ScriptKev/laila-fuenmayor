@@ -26,24 +26,24 @@ export default class MyDocument extends Document {
           <link rel='preconnect' href='https://fonts.gstatic.com' />
           <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap' rel='stylesheet' />
 
-          <meta property='og:site_name' content='La Casa de mi Padre - Donde todos tienen un lugar' />
+          <meta property='og:site_name' content='Leila Fuenmayor' />
           <meta property='og:type' content='website' />
-          <meta property='og:url' content='https://lcpcaracas.org/' />
-          <meta property='og:title' content='La Casa de mi Padre - Donde todos tienen un lugar' />
+          <meta property='og:url' content='https://leila-fuenmayor.vercel.app/' />
+          <meta property='og:title' content='Leila Fuenmayor' />
           <meta
             property='og:description'
-            content='Somos una iglesia cristiana, alegre, sencilla, con corazón de familia, donde todos tienen un lugar.'
+            content='Leila Fuenmayor - Descubre y ama tanto tus talentos que puedas crecer exponencialmente, sin necesidad de corregir tus debilidades.'
           />
-          <meta property='og:image' content='https://lcpcaracas.org/img/lcp-public.jpg' />
-          <meta name='twitter:image:alt' content='La Casa de mi Padre - Donde todos tienen un lugar' />
+          <meta property='og:image' content='https://leila-fuenmayor.vercel.app/img/logo.png' />
+          <meta name='twitter:image:alt' content='Leila Fuenmayor' />
           <meta property='twitter:card' content='summary_large_image' />
-          <meta property='twitter:url' content='https://lcpcaracas.org/' />
-          <meta property='twitter:title' content='La Casa de mi Padre - Donde todos tienen un lugar' />
+          <meta property='twitter:url' content='https://leila-fuenmayor.vercel.app/' />
+          <meta property='twitter:title' content='Leila Fuenmayor' />
           <meta
             property='twitter:description'
-            content='Somos una iglesia cristiana, alegre, sencilla, con corazón de familia, donde todos tienen un lugar.'
+            content='Leila Fuenmayor - Descubre y ama tanto tus talentos que puedas crecer exponencialmente, sin necesidad de corregir tus debilidades.'
           />
-          <meta property='twitter:image' content='https://lcpcaracas.org/img/lcp-public.jpg' />
+          <meta property='twitter:image' content='https://leila-fuenmayor.vercel.app/img/logo.png' />
         </Head>
         <body>
           <Main />

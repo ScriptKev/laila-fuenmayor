@@ -115,3 +115,7 @@
 .swiper-pagination.swiper-pagination-bullets {
   bottom: -10px;
 }
+
+.swiper-pagination-bullet-active {
+  background: #c93742 !important;
+}

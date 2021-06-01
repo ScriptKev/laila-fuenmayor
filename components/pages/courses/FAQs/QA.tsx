@@ -6,11 +6,11 @@ export const QA = ({ question, answer }: { question: string; answer: string }) =
   const handleIsOpen = () => setIsOpen((prevState) => !prevState)
 
   return (
-    <div className='lg:w-1/2'>
-      <div onClick={handleIsOpen} className='question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group'>
+    <div className='lg:w-3/4 mx-auto shadow'>
+      <div onClick={handleIsOpen} className='question-and-answer select-none cursor-pointer mx-8 my-3 px-6 py-4 rounded-lg text-sm group'>
         <dt className='question'>
           <div className='flex justify-between'>
-            <div className='text-indigo-800 font-semibold'>{question}</div>
+            <div className='text-primary-300 text-lg font-bold  self-center'>{question}</div>
             <div>
               <svg
                 fill='currentColor'
@@ -41,7 +41,7 @@ export const QA = ({ question, answer }: { question: string; answer: string }) =
             </div>
           </div>
         </dt>
-        <dd className={`${isOpen ? 'block' : 'hidden'} answer mt-2 leading-snug text-gray-700`}>{answer}</dd>
+        <dd className={`${isOpen ? 'block' : 'hidden'} answer mt-2 leading-snug text-gray-700 font-medium`}>{answer}</dd>
       </div>
     </div>
   )
