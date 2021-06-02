@@ -28,7 +28,7 @@ export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boole
         </button>
 
         <div className='w-full h-full flex justify-start items-center flex-col'>
-          <section className='mt-10 w-80'>
+          <section className='mt-10 w-64 ml:w-80'>
             <picture>
               <Image src='/logo.png' height={69} width={470} className='mx-auto' />
             </picture>

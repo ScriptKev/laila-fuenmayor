@@ -23,7 +23,7 @@ export const NavBar = () => {
     <>
       <header className='fixed left-0 top-0 w-full z-50 body-font text-gray-800 bg-primary-300 shadow-lg bg-opacity-90'>
         <div className='container max-w-5xl mx-auto flex flex-wrap p-5 flex-row items-center justify-between'>
-          <div className='w-72'>
+          <div className='w-56 ml:w-72 -mb-1'>
             <Link href='/'>
               <a>
                 <picture>
