@@ -1,13 +1,13 @@
 export const FirstSection = () => {
   return (
-    <section className='min-h-screen w-full bg-gray-100 text-center py-10'>
+    <section className='h-full md:min-h-screen w-full bg-gray-100 text-center py-10'>
       <h3 className='text-3xl text-primary-300 font-bold'>¿Quieres conocer un pedacito de lo que vas a encontrar en el programa?</h3>
       <div className='w-32 h-0.5 mt-4 mx-auto bg-secondary-300'></div>
       <br />
       <span className='text-primary-300 text-lg font-bold'>¡Te lo dejo por aquí!</span>
 
-      <div className='max-w-6xl mx-auto grid lg:grid-cols-3 lg:grid-rows-3 mt-10 gap-x-5 gap-y-5'>
-        <article className='col-span-2 bg-primary-300 w-full h-104 py-4 px-4 rounded-lg flex flex-col justify-center items-center'>
+      <div className='max-w-6xl mx-auto grid grid-cols-1 grid-row-8 lg:grid-cols-3 lg:grid-rows-3 mt-10 gap-x-5 gap-y-5 px-4'>
+        <article className='col-span-2 bg-primary-300 w-full h-full md:h-104 py-4 px-4 rounded-lg flex flex-col justify-center items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>
               ¿Qué tal si, en vez de invertir tiempo tratando de mejorar lo que NO se te da bien, pudieras saber exactamente aquello en lo que eres
@@ -19,15 +19,27 @@ export const FirstSection = () => {
               comenzar a aplicar tu combinación única de talentos.
             </p>
             <br />
-            <div className='px-8 py-3 bg-white bg-opacity-60 text-white inline-block rounded-full'>1 dia 4 horas 12 minutos 45 segundos</div>
+            <div className='hidden px-8 py-3 bg-white bg-opacity-60 text-white rounded-full md:flex justify-center items-center w-152 mx-auto'>
+              <div className='font-bold mx-4 block'>1 dias</div>
+              <div className='font-bold mx-4 block'>4 horas</div>
+              <div className='font-bold mx-4 block'>12 minutos</div>
+              <div className='font-bold mx-4 block'>45 segundos</div>
+            </div>
+
+            <div className='md:hidden px-8 py-3 bg-white bg-opacity-60 text-white rounded-full flex justify-center items-center'>
+              <div className='font-bold mx-4 inline-block'>1 d</div>
+              <div className='font-bold mx-4 inline-block'>4 h</div>
+              <div className='font-bold mx-4 inline-block'>12 m</div>
+              <div className='font-bold mx-4 inline-block'>45 s</div>
+            </div>
             <br />
-            <button className='mt-8 font-semibold mx-auto px-14 py-3 text-white rounded-xl-full rounded-full bg-secondary-300 text-sm hover:bg-opacity-90'>
-              ¡Quiero aprovechar la preventa
+            <button className='mt-2 md:mt-8 font-semibold mx-auto px-8 py-3 text-white rounded-xl-full rounded-full bg-secondary-300 text-sm hover:bg-opacity-90'>
+              ¡Quiero aprovechar la preventa!
             </button>
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full h-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 0: Mindset de talentos (Módulo asíncrono)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>
@@ -40,7 +52,7 @@ export const FirstSection = () => {
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full h-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 1: La cultura de talentos (2 de junio – 7pm EST)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>
@@ -51,7 +63,7 @@ export const FirstSection = () => {
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full h-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 2: Conociendo tus talentos (9 de junio – 7pm EST)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>
@@ -65,7 +77,7 @@ export const FirstSection = () => {
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full h-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 3: Celebrando tus talentos (7 de julio – 7pm EST)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>
@@ -81,7 +93,7 @@ export const FirstSection = () => {
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full h-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 4: Entendiendo tus talentos (23 de junio – 7pm EST)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>
@@ -96,7 +108,7 @@ export const FirstSection = () => {
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full h-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 5: Amando tus talentos (30 de junio – 7pm EST)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>
@@ -111,7 +123,7 @@ export const FirstSection = () => {
           </div>
         </article>
 
-        <article className='col-span-1 bg-primary-300 w-full h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
+        <article className='col-span-2 lg:col-span-1 bg-primary-300 w-full lg:h-104 px-4 pb-4 pt-6 rounded-lg flex flex-col justify-start items-center'>
           <div>
             <h4 className='font-bold text-white text-xl'>Semana 6: Celebrando tus talentos (7 de julio – 7pm EST)</h4> <br />
             <p className='text-white font-normal text-left text-sm'>

@@ -1,6 +1,6 @@
 export const FourthSection = () => {
   return (
-    <section className='py-28 w-full bg-gray-100 relative flex justify-center items-center bg-warrantyBg bg-center bg-no-repeat bg-cover'>
+    <section className='md:py-28 w-full bg-gray-100 relative flex justify-center items-center bg-warrantyBg bg-right md:bg-center bg-no-repeat bg-cover px-4 py-10'>
       <div className='max-w-xl bg-white rounded-md bg-opacity-60 px-4 py-4 text-center'>
         <h4 className='uppercase text-3xl text-primary-300 font-bold'>Mi 10X Garatía</h4>
         <br />

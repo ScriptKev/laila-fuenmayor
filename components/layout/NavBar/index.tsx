@@ -33,7 +33,7 @@ export const NavBar = () => {
             </Link>
           </div>
 
-          <button onClick={handleIsOpenDrawer} className='mdmin:hidden'>
+          <button onClick={handleIsOpenDrawer} className='md:hidden'>
             <IconHamburgerMenu height={28} width={28} />
           </button>
 

@@ -51,39 +51,43 @@ export const SecondSection = () => {
 
   return (
     <section className='min-h-screen w-full bg-primary-300 text-center py-10'>
-      <h3 className='text-3xl text-white font-bold'>Pero ¡ya va! esto no es todo...</h3>
+      <h3 className='text-3xl text-white font-bold'>
+        Pero ¡ya va! <br className='md:hidden' />
+        esto no es todo...
+      </h3>
       <div className='w-32 h-0.5 mt-4 mx-auto bg-secondary-300'></div>
       <br />
-      <span className='text-white font-bold text-xl'>Reservando HOY tendrás acceso GRATIS a estos 3 súper BONOS</span>
+      <span className='text-white font-light md:font-bold text-xl'>Reservando HOY tendrás acceso GRATIS a estos 3 súper BONOS</span>
 
-      <div className='max-w-6xl mx-auto mt-6'>
-        <div className='flex flex-row'>
+      <div className='max-w-6xl mx-auto mt-6 px-2'>
+        <div className='flex flex-col md:flex-row'>
           {services.map((service) => (
-            <article key={service.title} className='w-80 h-full bg-transparent flex flex-col justify-start items-center mx-6 my-4'>
+            <article key={service.title} className='w-full md:w-80 h-full bg-transparent flex flex-col justify-start items-center md:mx-6 my-4'>
               <picture className=''>
                 <img src={service.img} alt={service.title} width={380} height={300} />
               </picture>
-              <br />
+              <br className='hidden md:block' />
 
-              <h4 className='text-white font-bold'>{service.title}</h4>
+              <h4 className='text-white font-bold text-lg mt-4 md:mt-0'>{service.title}</h4>
               <br />
               <p className='text-sm text-white'>{service.content}</p>
             </article>
           ))}
         </div>
+        <br />
 
         <span className='text-2xl text-white font-bold'>Y además contarás con estos 3 regalitos extra...</span>
         <div className='w-32 h-0.5 mt-4 mx-auto bg-secondary-300'></div>
 
-        <div className='flex flex-row mt-4'>
+        <div className='flex flex-col md:flex-row mt-4'>
           {presents.map((present) => (
-            <article key={present.title} className='w-80 h-full bg-transparent flex flex-col justify-start items-center mx-6 my-4'>
+            <article key={present.title} className='w-full md:w-80 h-full bg-transparent flex flex-col justify-start items-center md:mx-6 my-4'>
               <picture className=''>
                 <img src={present.img} alt={present.title} width={380} height={300} />
               </picture>
-              <br />
+              <br className='hidden md:block' />
 
-              <h4 className='text-white font-bold'>{present.title}</h4>
+              <h4 className='text-white font-bold text-lg mt-4 md:mt-0'>{present.title}</h4>
               <br />
               <p className='text-sm text-white'>{present.content}</p>
             </article>

@@ -1,30 +1,33 @@
 export const ThridSection = () => {
   return (
-    <section className='h-screen-235 w-full bg-priceBg bg-no-repeat bg-center bg-cover relative'>
-      <div className=' absolute top-80 left-0 right-0'>
-        <div className='max-w-4xl mx-auto text-white text-center'>
-          <span className='font-bold text-xl'>
+    <section
+      className='h-priceBgSpacing md:h-screen-235 w-full bg-priceMobileBg md:bg-priceBg bg-no-repeat bg-top md:bg-center bg-contain mxs:bg-cover relative'
+      style={{ backgroundColor: '#d5d5d3' }}
+    >
+      <div className=' absolute top-28 wmax-md:top-80 lg:top-72 left-0 right-0'>
+        <div className='md:max-w-3xl lg:max-w-4xl mx-auto text-white text-center px-6'>
+          <span className='font-bold text-lg md:text-base lg:text-xl'>
             ¡Oh sí! Es un montón, lo sé… <br />
             Mejor te hago un resumen de TOOODO lo que tendrás
           </span>
           <br />
           <br />
 
-          <h2 className='font-hottemp text-7xl'>Enámorate de tu sello</h2>
+          <h2 className='font-hottemp text-5xl xl:text-7xl'>Enámorate de tu sello</h2>
           <br />
 
-          <span className='font-semibold'>
+          <span className='font-semibold text-sm'>
             Programa online de 6 semanas en donde compartiré la fórmula para potenciar tu éxito reconociendo y amando tu combinación única de talentos
           </span>
 
-          <br />
-          <br />
-          <span className='font-semibold'>Incluye:</span>
+          <br className='hidden md:block' />
+          <br className='hidden md:block' />
+          <span className='font-semibold hidden md:inline-block'>Incluye:</span>
           <br />
 
-          <div className='flex flex-col justify-start items-center mt-10'>
-            <div className='flex flex-row justify-start items-start text-sm text-left'>
-              <ul className='w-1/2 mr-10 list-disc'>
+          <div className='flex flex-col justify-start items-center mt-4 xl:mt-10 md:px-10'>
+            <div className='flex flex-col md:flex-row justify-start items-center md:items-start text-sm xl:text-base text-center md:text-left'>
+              <ul className='w-full md:w-1/2 md:mr-10 list-none md:list-disc px-4 md:px-0'>
                 <li className=''>
                   <b>6 sesiones en vivo de dos horas cada una para </b> ayudarte a transformar tu mindset y aprender a crecer desde tus talentos
                   innatos, sin perder tiempo y esfuerzo en corregir tus debilidades
@@ -50,9 +53,10 @@ export const ThridSection = () => {
                   tu potencial innato
                   <b>(valor $47)</b>
                 </li>
+                <br />
               </ul>
 
-              <ul className='w-1/2 mr-10 list-disc'>
+              <ul className='w-full md:w-1/2 md:mr-10 list-none md:list-disc px-4 md:px-0'>
                 <li className=''>
                   <b>BONO: 2 masterclasses para que entiendas los 34 talentos</b> para saber en todo momento cómo vivir cada tema de talento
                   <b>(valor $297)</b>
