@@ -49,7 +49,7 @@ export const InfoSection = () => {
       <br />
       <span className='text-gray-700 font-medium'>¿Cuál de estas te está afectando mas en este momento?</span>
 
-      <div className='max-w-6xl mx-auto flex flex-row flex-wrap justify-center items-start mt-4'>
+      <div className='max-w-7xl mx-auto flex flex-row flex-wrap justify-center items-start mt-4'>
         {elements.map((item) => (
           <article
             key={item.title}

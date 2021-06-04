@@ -87,7 +87,12 @@ module.exports = {
         'screen-25': '125vh',
         'screen-30': '130vh',
         'screen-35': '135vh',
-        'screen-235': '235vh'
+        'screen-235': '235vh',
+        'screen-240': '240vh',
+        'screen-245': '245vh',
+        'screen-250': '250vh',
+        'screen-255': '255vh',
+        'screen-260': '260vh',
       },
       gridTemplateColumns: {
        'galleryLayout': 'minmax(750px, 1fr) 1fr',

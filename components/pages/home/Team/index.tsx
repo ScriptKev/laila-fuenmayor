@@ -41,7 +41,7 @@ export const TeamSection = () => {
           {profiles.map((profile, idx) => (
             <div
               key={profile.fullName}
-              className={`flex ${idx === 1 ? 'sm:flex-row-reverse' : 'sm:flex-row'} flex-col items-center lg:w-3/4 mx-auto pb-10 mb-10`}
+              className={`flex ${idx === 1 ? 'sm:flex-row-reverse' : 'sm:flex-row'} flex-col items-center lg:w-5/6 mx-auto pb-10 mb-10`}
             >
               <div className='h-52 w-52 sm:w-32 sm:h-32 sm:mr-10 inline-flex flex-col items-center justify-center rounded-full flex-shrink-0'>
                 <picture>

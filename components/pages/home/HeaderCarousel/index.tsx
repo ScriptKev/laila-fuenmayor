@@ -35,9 +35,9 @@ export const Items = () => (
     />
     <Image alt='Mountains' src='/img/homePage/carousel/homeCarouselItem1.png' className='hidden' layout='fill' objectFit='cover' quality={100} /> */}
 
-    <div className='w-full h-full hxs:pt-6 hsm:pt-20 md:w-104 md:h-56 bg-transparent absolute top-0 flex flex-col justify-center items-center md:top-60 left-0 md:left-10 text-center px-4'>
+    <div className='w-full h-full hxs:pt-6 hsm:pt-20 md:w-104 md:h-56 bg-transparent absolute flex flex-col justify-center items-center wmm-wmxs:top-10 wmxs-ml:top-10 wml-wsm:top-10 wsm-wmd:top-20 wmd-wlg:top-48 wlg-xl:top-48 xl:top-48 left-0 wmd-wlg:left-10 wlg-xl:left-16 wxl-2xl:left-36 2xl:left-40 text-center px-4'>
       <span className='text-primary-300 text-7xl font-hottemp'>
-        Enamorate <br className='md:hidden' />
+        Enámorate <br className='md:hidden' />
         del Sello
       </span>{' '}
       {/* <br /> */}

@@ -74,8 +74,15 @@ export const ContactSection = () => {
               <div className='p-2 w-full md:w-1/2'>
                 <div className='relative'>
                   <input
+                    type="text"
+                    onFocus={(e) => {(e.currentTarget.type = 'date')}}
+
+                    onBlur={(e) => {(e.currentTarget.type = 'text')}}
+
+
+
                     {...register('date')}
-                    type='date'
+                    // type='date'
                     id='date'
                     name='date'
                     placeholder='Fecha (En caso de agendar una cita)'

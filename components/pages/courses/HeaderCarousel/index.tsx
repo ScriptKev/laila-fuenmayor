@@ -53,13 +53,13 @@ SwiperCore.use([Pagination])
 
 export const Items = () => (
   <div className='h-screen w-full overflow-hidden z-0 relative'>
-    {/* <img
+    <img
       alt='Mountains'
       src='/img/homePage/carousel/homeCarouselItemMobile1.png'
       className='md:hidden h-full w-full object-cover'
       width={1920}
       height={1080}
-    /> */}
+    />
     <img
       alt='Mountains'
       src='/img/homePage/carousel/homeCarouselItem1.png'
@@ -78,7 +78,7 @@ export const Items = () => (
     />
     <Image alt='Mountains' src='/img/homePage/carousel/homeCarouselItem1.png' className='hidden' layout='fill' objectFit='cover' quality={100} /> */}
 
-    <div className='w-full h-full hsm:pt-20 md:w-104 md:h-56 bg-transparent absolute top-0 flex flex-col justify-center items-center md:top-40 lg:top-60 left-0 md:left-10 text-center px-4'>
+    <div className='w-full h-full hsm:pt-20 md:w-104 md:h-56 bg-transparent absolute flex flex-col justify-center items-center wmm-wmxs:top-10 wmxs-ml:top-10 wml-wsm:top-10 wsm-wmd:top-20 wmd-wlg:top-48 wlg-xl:top-48 xl:top-48 left-0 wmd-wlg:left-10 wlg-xl:left-16 wxl-2xl:left-36 2xl:left-40 text-center px-4'>
       <h3 className='font-semibold text-secondary-300'>Cursos Online</h3>
       <span className='text-primary-300 text-7xl font-hottemp'>
         Enamorate <br className='md:hidden' />
