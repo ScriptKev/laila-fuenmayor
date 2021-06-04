@@ -49,11 +49,11 @@ export const InfoSection = () => {
       <br />
       <span className='text-gray-700 font-medium'>¿Cuál de estas te está afectando mas en este momento?</span>
 
-      <div className='max-w-7xl mx-auto flex flex-row flex-wrap justify-center items-start mt-4'>
+      <div className='max-w-8xl mx-auto flex flex-row flex-wrap justify-center items-start mt-4'>
         {elements.map((item) => (
           <article
             key={item.title}
-            className='text-center mx-0 md:mx-4 my-4 p-4 w-full md:w-124 h-full md:h-72 rounded-2xl'
+            className='text-center mx-0 md:mx-4 my-4 p-4 w-full md:w-104 h-full md:h-72 rounded-2xl'
             style={{ backgroundColor: '#C2B1C4' }}
           >
             <h4 className='text-gray-700 text-lg font-semibold'>{item.title}</h4>
@@ -80,7 +80,7 @@ export const InfoSection = () => {
         Por lo general estas personas han <br /> vivido alguna de estas 3 situaciones
       </span>
 
-      <div className='max-w-6xl mx-auto flex flex-row flex-wrap justify-center items-center mt-4'>
+      <div className='max-w-8xl mx-auto flex flex-row flex-wrap justify-center items-center mt-4'>
         {elements2.map((item) => (
           <article key={item.title} className='text-center md:mx-4 my-4 w-96 h-full md:h-44 p-4 rounded-3xl bg-primary-300 text-white'>
             <span className='font-bold text-4xl'>{item.title}</span>

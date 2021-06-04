@@ -32,6 +32,9 @@ module.exports = {
       multi2: ['mutli2', ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      maxWidth: {
+        '8xl': '90rem',
+      },
       backgroundSize: {
        '100%': '100%',
        '150%': '150%',
