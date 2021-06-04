@@ -8,11 +8,11 @@ export const config = {
   ],
 
   SOCIAL_NETWORKS: [
-    { label: 'facebook', link: '#' },
-    { label: 'twitter', link: '#' },
-    { label: 'linkedin', link: '#' },
-    { label: 'youtube', link: '#' },
-    { label: 'phone', link: '#' },
+    { label: 'facebook', link: '#', image: '/icons/iconFacebook.svg' },
+    { label: 'twitter', link: '#', image: '/icons/iconTwitter.svg' },
+    { label: 'linkedin', link: '#', image: '/icons/iconLinkedin.svg' },
+    { label: 'youtube', link: '#', image: '/icons/iconYoutube.svg' },
+    { label: 'phone', link: '#', image: '/icons/iconPhone.svg' },
   ],
 
   EMAIL_OWNER: 'script.kev@gmail.com'

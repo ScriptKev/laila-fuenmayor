@@ -32,7 +32,7 @@ export const NewsLetterSection = () => {
           name='email'
           placeholder='Email'
           style={{ backgroundColor: '#5848588F' }}
-          className='w-full md:mr-4 placeholder-white rounded-md border-none focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
+          className='placeholder-center w-full md:mr-4 placeholder-white rounded-md border-none focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
         />
         <button className='mx-auto mt-5 md:mt-0 px-8 md:px-14 py-4 text-white rounded-xl-full rounded-full bg-secondary-300 text-xl md:text-sm hover:bg-opacity-90 font-semibold'>
           Suscribete
@@ -48,8 +48,8 @@ export const NewsLetterSection = () => {
 
         <div className='flex flex-wrap justify-center items-center mt-14'>
           {config.SOCIAL_NETWORKS.map((network) => (
-            <a className='mx-2 md:mx-4' href={network.link} target='_blank' rel='noopener noreferrer' key={network.label}>
-              <div className='h-14 w-14 md:h-16 md:w-16 bg-white rounded-full flex justify-center items-center'></div>
+            <a style={{ backgroundColor: '#e4c6a4' }} className='mx-2 md:mx-4 rounded-full flex justify-center items-center' href={network.link} target='_blank' rel='noopener noreferrer' key={network.label}>
+              <img src={network.image} className='h-10 w-10 lg:h-12 p-2 lg:w-12 '/>
             </a>
           ))}
         </div>

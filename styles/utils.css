@@ -121,20 +121,28 @@
 }
 
 /* input placeholder center */
-.placeholder-center::-webkit-input-placeholder {
-  text-align: center;
+@media (max-width: 768px) {
+  .placeholder-center::-webkit-input-placeholder {
+    text-align: center;
+  }
 }
 
-.placeholder-center:-moz-placeholder {
-  /* Firefox 18- */
-  text-align: center;
+@media (max-width: 768px) {
+  .placeholder-center:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+  }
 }
 
-.placeholder-center::-moz-placeholder {
-  /* Firefox 19+ */
-  text-align: center;
+@media (max-width: 768px) {
+  .placeholder-center::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+  }
 }
 
-.placeholder-center:-ms-input-placeholder {
-  text-align: center;
+@media (max-width: 768px) {
+  .placeholder-center:-ms-input-placeholder {
+    text-align: center;
+  }
 }

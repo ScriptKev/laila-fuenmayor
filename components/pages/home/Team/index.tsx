@@ -43,13 +43,13 @@ export const TeamSection = () => {
               key={profile.fullName}
               className={`flex ${idx === 1 ? 'sm:flex-row-reverse' : 'sm:flex-row'} flex-col items-center lg:w-5/6 mx-auto pb-10 mb-10`}
             >
-              <div className='h-52 w-52 sm:w-32 sm:h-32 sm:mr-10 inline-flex flex-col items-center justify-center rounded-full flex-shrink-0'>
+              <div className='h-52 w-52 wmax-md:w-32 wmax-md:h-32 lg:w-52 lg:h-52 sm:mr-10 inline-flex flex-col items-center justify-center rounded-full flex-shrink-0'>
                 <picture>
                   <Image src={profile.img} width={254} height={254} />
                 </picture>
 
                 <div>
-                  <span className='text-2xl text-white font-bold'>{profile.fullName}</span> <br />
+                  <span className='text-2xl text-white font-bold wmax-ml:whitespace-nowrap xl:whitespace-nowrap'>{profile.fullName}</span> <br />
                   <small className='font-medium text-white text-base whitespace-nowrap'>{profile.rol}</small>
                 </div>
               </div>

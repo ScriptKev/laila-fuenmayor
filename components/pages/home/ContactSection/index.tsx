@@ -53,7 +53,7 @@ export const ContactSection = () => {
                     id='email'
                     name='email'
                     placeholder='Email'
-                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='placeholder-center border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -66,7 +66,7 @@ export const ContactSection = () => {
                     id='phone'
                     name='phone'
                     placeholder='Numero de teléfono'
-                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='placeholder-center border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -76,17 +76,13 @@ export const ContactSection = () => {
                   <input
                     type="text"
                     onFocus={(e) => {(e.currentTarget.type = 'date')}}
-
                     onBlur={(e) => {(e.currentTarget.type = 'text')}}
-
-
-
                     {...register('date')}
                     // type='date'
                     id='date'
                     name='date'
                     placeholder='Fecha (En caso de agendar una cita)'
-                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                    className='placeholder-center border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 text-base outline-none text-white py-3 px-3 leading-8 transition-colors duration-200 ease-in-out'
                   />
                 </div>
               </div>
@@ -98,7 +94,7 @@ export const ContactSection = () => {
                     id='message'
                     name='message'
                     placeholder='Escribe tu mensaje aquí'
-                    className='border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 h-48 md:h-32 text-base outline-none text-white py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                    className='placeholder-center border-none w-full bg-primary-300 placeholder-white rounded-xl focus:border-indigo-500 focus:bg-opacity-90 focus:ring-2 focus:ring-primary-300 h-48 md:h-32 text-base outline-none text-white py-3 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
                   ></textarea>
                 </div>
               </div>
