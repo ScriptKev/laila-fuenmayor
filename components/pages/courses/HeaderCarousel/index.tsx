@@ -78,19 +78,17 @@ export const Items = () => (
     />
     <Image alt='Mountains' src='/img/homePage/carousel/homeCarouselItem1.png' className='hidden' layout='fill' objectFit='cover' quality={100} /> */}
 
-    <div className='w-full h-full hsm:pt-20 bg-transparent absolute top-0 flex flex-col justify-center items-center md:top-40 lg:top-60 left-0 md:left-10 text-center px-4'>
-      <div className='md:w-104 md:h-fit 2xl:w-2/6'>
-        <h3 className='font-semibold text-secondary-300 2xl:text-lg'>Cursos Online</h3>
-        <span className='text-primary-300 text-7xl font-hottemp 3xl:text-9xl'>
-          Enamorate <br className='md:hidden' />
-          del Sello
-        </span>
-        <p className='text-gray-700 mt-4 font-medium text-sm 3xl:text-2xl'>
-          Únete a este programa virtual de 6 semanas que te dará los ingredientes claves para salir de la mentalidad de &quot;corregir debilidades&quot;
-          y aprender a amar el recurso más importante en el que te puedes apalancar para lograr con disfrute lo que quieres: tu combinación única de
-          talentos.
-        </p>
-      </div>
+    <div className='containerHeadermm-md containerHeadermd-lg containerHeader2xl hsm:pt-20 3xl:pt-60 md:top-40 lg:top-60 bg-transparent absolute top-0 flex flex-col justify-center items-center left-0 md:left-10 text-center px-4'>
+      <h3 className='font-semibold text-secondary-300 2xl:text-lg'>Cursos Online</h3>
+      <span className='text-primary-300 text-7xl font-hottemp 3xl:text-9xl'>
+        Enamorate <br className='md:hidden' />
+        del Sello
+      </span>
+      <p className='text-gray-700 mt-4 font-medium text-sm 3xl:text-2xl'> 
+        Únete a este programa virtual de 6 semanas que te dará los ingredientes claves para salir de la mentalidad de &quot;corregir debilidades&quot;
+        y aprender a amar el recurso más importante en el que te puedes apalancar para lograr con disfrute lo que quieres: tu combinación única de
+        talentos.
+      </p>
     </div>
   </div>
 )

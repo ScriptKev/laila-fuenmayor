@@ -61,6 +61,10 @@ module.exports = {
        '-y-32': 'center -32rem',
        '-y-36': 'center -36rem',
        '-y-40': 'center -40rem',
+       '-y-45': 'center -45rem',
+       '-y-50': 'center -50rem',
+       '-y-55': 'center -55rem',
+       '-y-60': 'center -60rem',
       },
       screens: {
         // 'wmm-wmxs': {'raw': '(min-width: 320px) and (max-width: 375px)'},
