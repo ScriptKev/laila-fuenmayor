@@ -32,7 +32,9 @@ export const TeamSection = () => {
 
   return (
     <section className='min-h-screen w-full pt-16 text-center bg-primary-300'>
-      <h4 className='px-4 text-2xl md:text-4xl text-white font-bold'>Mira lo que otros sienten luego de aprender a amar sus talentos...</h4>
+      <div className='text-2xl md:text-4xl'>
+        <h4 className='px-4 2xl:text-5xl text-white font-bold'>Mira lo que otros sienten luego de aprender a amar sus talentos...</h4>
+      </div>
       <br />
       <div className='w-32 h-0.5 mx-auto bg-secondary-300 hidden md:inline-block'></div>
 
@@ -41,22 +43,22 @@ export const TeamSection = () => {
           {profiles.map((profile, idx) => (
             <div
               key={profile.fullName}
-              className={`flex ${idx === 1 ? 'sm:flex-row-reverse' : 'sm:flex-row'} flex-col items-center lg:w-5/6 mx-auto pb-10 mb-10`}
+              className={`flex ${idx === 1 ? 'sm:flex-row-reverse' : 'sm:flex-row'} flex-col items-center lg:w-3/4 mx-auto pb-10 mb-10`}
             >
-              <div className='h-52 w-52 wmax-md:w-32 wmax-md:h-32 lg:w-52 lg:h-52 sm:mr-10 inline-flex flex-col items-center justify-center rounded-full flex-shrink-0'>
-                <picture>
+              <div className='sm:mr-10 inline-flex flex-col items-center justify-center rounded-full flex-shrink-0'>
+                <picture className='h-52 w-52 2xl:h-52 2xl:w-52'>
                   <Image src={profile.img} width={254} height={254} />
                 </picture>
 
                 <div>
-                  <span className='text-2xl text-white font-bold wmax-ml:whitespace-nowrap xl:whitespace-nowrap'>{profile.fullName}</span> <br />
-                  <small className='font-medium text-white text-base whitespace-nowrap'>{profile.rol}</small>
+                  <span className='text-2xl text-white font-bold 2xl:text-3xl'>{profile.fullName}</span> <br />
+                  <small className='font-medium text-white text-base whitespace-nowrap 2xl:text-lg'>{profile.rol}</small>
                 </div>
               </div>
 
               <div className='flex-grow sm:text-left text-center mt-6 sm:mt-0'>
                 <br />
-                <p className='leading-relaxed text-base text-gray-100'>{profile.content}</p>
+                <p className='leading-relaxed text-base text-gray-100 2xl:text-xl'>{profile.content}</p>
               </div>
             </div>
           ))}

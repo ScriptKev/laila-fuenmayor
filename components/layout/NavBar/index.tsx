@@ -22,7 +22,7 @@ export const NavBar = () => {
   return (
     <>
       <header className='fixed left-0 top-0 w-full z-50 body-font text-gray-800 bg-primary-300 shadow-lg bg-opacity-90'>
-        <div className='container max-w-5xl mx-auto flex flex-wrap p-5 flex-row items-center justify-between'>
+        <div className='container max-w-7xl mx-auto flex flex-wrap p-5 flex-row items-center justify-between'>
           <div className='w-56 ml:w-72 -mb-1'>
             <Link href='/'>
               <a>
@@ -37,7 +37,7 @@ export const NavBar = () => {
             <IconHamburgerMenu height={28} width={28} />
           </button>
 
-          <nav className='hidden md:flex flex-wrap items-center text-base justify-end'>
+          <nav className='hidden md:flex flex-wrap items-center text-base 2xl:text-xl justify-end'>
             {navLinks.map((navLink) => (
               <Link href={navLink.route} key={navLink.route}>
                 <a className='mr-5 hover:text-yellow-500 text-white'>

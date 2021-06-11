@@ -10,7 +10,7 @@ export const QA = ({ question, answer }: { question: string; answer: string }) =
       <div onClick={handleIsOpen} className='question-and-answer select-none cursor-pointer mx-8 my-3 px-6 py-4 rounded-lg text-sm group'>
         <dt className='question'>
           <div className='flex justify-between text-center'>
-            <h5 className='text-primary-300 text-lg font-bold  self-center'>{question}</h5>
+            <h5 className='text-primary-300 text-lg font-bold  self-center 2xl:text-2xl'>{question}</h5>
             <div className='hidden md:block'>
               <span className={`${isOpen ? 'hidden' : 'block'} text-4xl text-primary-300 font-bold`}>+</span>
               <span className={`${isOpen ? 'block' : 'hidden'} text-4xl text-primary-300 font-bold`}>-</span>

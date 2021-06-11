@@ -3,13 +3,13 @@
 export const PresentationSection = () => {
   return (
     <>
-      <section className='h-80 md:h-screen-25 w-full z-0 relative md:py-10 bg-presentationBg bg-right sm:bg-center bg-no-repeat bg-cover'>
+      <section className='h-80 md:h-screen-25 w-full z-0 relative md:py-12 2xl:py-16 bg-presentationBg bg-right sm:bg-center bg-no-repeat bg-cover'>
         {/* <Image alt='Mountains' src='/img/homePage/presentationBg.png' layout='fill' objectFit='cover' quality={100} /> */}
 
-        <div className='text-left pl-20 w-170 h-full place-content-center hidden md:flex flex-col justify-center items-center'>
-          <h2 className='text-7xl text-primary-300 font-hottemp self-start'>Hola soy Laila</h2>
+        <div className='text-left pl-10 2xl:pl-48 w-170 2xl:w-5/12 h-full place-content-center hidden md:flex flex-col justify-center items-center'>
+          <h2 className='text-7xl text-primary-300 font-hottemp self-start 2xl:text-9xl'>Hola soy Laila</h2>
           <br />
-          <p className='text-gray-800 text-sm font-medium'>
+          <p className='text-gray-800 text-sm font-medium 2xl:text-xl'>
             Y antes de ser Coach de Fortalezas certificada por Gallup, Promotora del bienestar, multiplicadora de Empresas B y consteladora familiar,
             con más de 10 años de experiencia guiando personas a descubrir y fortalecer sus talentos, pasé gran parte de mi vida inconforme con mis
             capacidades y tratando de corregirme. <br /> <br />
@@ -27,7 +27,7 @@ export const PresentationSection = () => {
             <br />
           </p>
           <br />
-          <button className='px-14 py-3 text-white rounded-full bg-secondary-300 text-sm font-semibold'>No estas solo, yo puedo ayudarte</button>
+          <button className='px-14 py-3 text-white rounded-full bg-secondary-300 text-sm font-semibold 2xl:text-xl'>No estas solo, yo puedo ayudarte</button>
         </div>
       </section>
 

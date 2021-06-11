@@ -51,26 +51,26 @@ export const SecondSection = () => {
 
   return (
     <section className='min-h-screen w-full bg-primary-300 text-center py-10'>
-      <h3 className='text-3xl text-white font-bold'>
+      <h3 className='text-3xl text-white font-bold 2xl:text-5xl'>
         Pero ¡ya va! <br className='md:hidden' />
         esto no es todo...
       </h3>
       <div className='w-32 h-0.5 mt-4 mx-auto bg-secondary-300'></div>
       <br />
-      <span className='text-white font-light md:font-bold text-xl'>Reservando HOY tendrás acceso GRATIS a estos 3 súper BONOS</span>
+      <span className='text-white font-light md:font-bold text-xl 2xl:text-2xl'>Reservando HOY tendrás acceso GRATIS a estos 3 súper BONOS</span>
 
-      <div className='max-w-6xl mx-auto mt-6 px-2'>
-        <div className='flex flex-col md:flex-row'>
+      <div className='max-w-7xl mx-auto mt-6 px-2'>
+        <div className='flex flex-col md:flex-row md:justify-center md:items-start'>
           {services.map((service) => (
-            <article key={service.title} className='w-full md:w-80 h-full bg-transparent flex flex-col justify-start items-center md:mx-6 my-4'>
+            <article key={service.title} className='w-full md:w-9/12 h-full bg-transparent flex flex-col justify-start items-center md:mx-6 my-4'>
               <picture className=''>
                 <img src={service.img} alt={service.title} width={380} height={300} />
               </picture>
               <br className='hidden md:block' />
 
-              <h4 className='text-white font-bold text-lg mt-4 md:mt-0'>{service.title}</h4>
+              <h4 className='text-white font-bold text-lg mt-4 md:mt-0 2xl:text-2xl'>{service.title}</h4>
               <br />
-              <p className='text-sm text-white'>{service.content}</p>
+              <p className='text-sm text-white 2xl:text-lg'>{service.content}</p>
             </article>
           ))}
         </div>
@@ -79,17 +79,17 @@ export const SecondSection = () => {
         <span className='text-2xl text-white font-bold'>Y además contarás con estos 3 regalitos extra...</span>
         <div className='w-32 h-0.5 mt-4 mx-auto bg-secondary-300'></div>
 
-        <div className='flex flex-col md:flex-row mt-4'>
+        <div className='flex flex-col md:flex-row md:justify-center md:items-start mt-4'>
           {presents.map((present) => (
-            <article key={present.title} className='w-full md:w-80 h-full bg-transparent flex flex-col justify-start items-center md:mx-6 my-4'>
+            <article key={present.title} className='w-full md:w-9/12 h-full bg-transparent flex flex-col justify-start items-center md:mx-6 my-4'>
               <picture className=''>
                 <img src={present.img} alt={present.title} width={380} height={300} />
               </picture>
               <br className='hidden md:block' />
 
-              <h4 className='text-white font-bold text-lg mt-4 md:mt-0'>{present.title}</h4>
+              <h4 className='text-white font-bold text-lg mt-4 md:mt-0 2xl:text-2xl'>{present.title}</h4>
               <br />
-              <p className='text-sm text-white'>{present.content}</p>
+              <p className='text-sm text-white 2xl:text-lg'>{present.content}</p>
             </article>
           ))}
         </div>
