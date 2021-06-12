@@ -49,7 +49,9 @@ export const NewsLetterSection = () => {
         <div className='flex flex-wrap justify-center items-center mt-14'>
           {config.SOCIAL_NETWORKS.map((network) => (
             <a className='mx-2 md:mx-4' href={network.link} target='_blank' rel='noopener noreferrer' key={network.label}>
-              <div className='h-14 w-14 md:h-16 md:w-16 bg-white rounded-full flex justify-center items-center'></div>
+              <div className='h-14 w-14 md:h-16 md:w-16 rounded-full flex justify-center items-center p-0' style={{ backgroundColor: '#e4c6a4' }}>
+                {network.icon}
+              </div>
             </a>
           ))}
         </div>

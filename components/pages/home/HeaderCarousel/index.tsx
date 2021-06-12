@@ -37,8 +37,8 @@ export const Items = () => (
 
     <div className='w-full h-full hxs:pt-6 hsm:pt-20 5xl:pt-40 2xl:pl-28 px-4 md:w-fit md:h-fit bg-transparent absolute flex flex-col justify-center items-center inset-0 md:top-52 md:left-10 3xl:left-20 text-center'>
       <span className='text-primary-300 text-7xl 3xl:text-9xl font-hottemp'>
-        Enamorate <br className='md:hidden' />
-        del Sello
+        Enámorate <br className='md:hidden' />
+        de tu sello
       </span>{' '}
       {/* <br /> */}
       <p className='text-gray-700 mt-4 font-medium text-sm 3xl:text-2xl'>
