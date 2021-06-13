@@ -58,7 +58,7 @@ export const HeaderCarousel = () => {
 
   return (
     <>
-      <Swiper pagination={{ clickable: true }} className='h-screen w-full'>
+      <Swiper pagination={{ clickable: true }} id='inicio' className='h-screen w-full'>
         {carouselItem.map((item, idx) => (
           <SwiperSlide key={idx}>
             <Items />

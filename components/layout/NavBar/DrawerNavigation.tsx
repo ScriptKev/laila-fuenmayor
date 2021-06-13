@@ -4,11 +4,11 @@ import Link from 'next/link'
 
 export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boolean; handleIsOpenDrawer: () => void }) => {
   const routesLink = [
-    { label: 'Inicio', to: '/' },
-    { label: 'Ayuda', to: '/ayuda' },
-    { label: 'Sobre mí', to: '/sobre-mi' },
+    { label: 'Inicio', to: '#inicio' },
+    { label: 'Ayuda', to: '#ayuda' },
+    { label: 'Sobre mí', to: '#sobre-mi' },
     { label: 'Cursos', to: '/cursos' },
-    { label: 'Contacto', to: '/contacto' },
+    { label: 'Contacto', to: '#contacto' },
   ]
 
   return (

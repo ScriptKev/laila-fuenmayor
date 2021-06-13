@@ -12,8 +12,8 @@ export const NavBar = () => {
   const router = useRouter()
 
   const { current: navLinks } = useRef([
-    { label: 'Inicio', route: '/' },
-    { label: 'Ayuda', route: '/#ayuda' },
+    { label: 'Inicio', route: '#inicio' },
+    { label: 'Ayuda', route: '#ayuda' },
     { label: 'Sobre mí', route: '#sobre-mi' },
     { label: 'Cursos', route: '/cursos' },
     { label: 'Contacto', route: '#contacto' },
