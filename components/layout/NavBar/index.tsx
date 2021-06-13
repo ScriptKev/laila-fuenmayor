@@ -14,7 +14,7 @@ export const NavBar = () => {
   const { current: navLinks } = useRef([
     { label: 'Inicio', route: '/' },
     { label: 'Ayuda', route: '/ayuda' },
-    { label: 'Sobre mi', route: '/sobre-mi' },
+    { label: 'Sobre mí', route: '/sobre-mi' },
     { label: 'Cursos', route: '/cursos' },
     { label: 'Contacto', route: '/contacto' },
   ])
@@ -40,7 +40,7 @@ export const NavBar = () => {
           <nav className='hidden md:flex flex-wrap items-center text-base 2xl:text-xl justify-end'>
             {navLinks.map((navLink) => (
               <Link href={navLink.route} key={navLink.route}>
-                <a className='mr-5 hover:text-yellow-500 text-white'>
+                <a className='mr-5 hover:text-secondary-300 text-white'>
                   {navLink.label}
                   {router.pathname === navLink.route && <div className='w-8 h-0.5 bg-secondary-300'></div>}
                 </a>

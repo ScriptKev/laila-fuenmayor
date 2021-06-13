@@ -6,7 +6,7 @@ export const DrawerNavigation = ({ isOpen, handleIsOpenDrawer }: { isOpen: boole
   const routesLink = [
     { label: 'Inicio', to: '/' },
     { label: 'Ayuda', to: '/ayuda' },
-    { label: 'Sobre mi', to: '/sobre-mi' },
+    { label: 'Sobre mí', to: '/sobre-mi' },
     { label: 'Cursos', to: '/cursos' },
     { label: 'Contacto', to: '/contacto' },
   ]

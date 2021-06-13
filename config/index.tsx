@@ -1,10 +1,10 @@
 export const config = {
   NAV_LINKS: [
-    { label: 'Home', route: '/' },
-    { label: 'Help', route: '/help' },
-    { label: 'About', route: '/about' },
-    { label: 'Courses', route: '/courses' },
-    { label: 'Contact', route: '/contact' },
+    { label: 'Inicio', route: '/' },
+    { label: 'Ayuda', route: '/ayuda' },
+    { label: 'Sobre mí', route: '/sobre-mi' },
+    { label: 'Cursos', route: '/cursos' },
+    { label: 'Contacto', route: '/contacto' },
   ],
 
   SOCIAL_NETWORKS: [
