@@ -7,7 +7,7 @@ export default function ContactPage() {
         <title>Contáctanos - Laila Fuenmayor</title>
       </Head>
 
-      <div className='pt-40 flex flex-col justify-center items-center text-center'>
+      <div className='pt-40 flex flex-col justify-center items-center text-center' style={{ height: '90vh' }}>
         <figure>
           <img src='/img/commons/mantenimiento.svg' width={300} height={300} />
         </figure>
