@@ -13,10 +13,10 @@ export const NavBar = () => {
 
   const { current: navLinks } = useRef([
     { label: 'Inicio', route: '/' },
-    { label: 'Ayuda', route: '/ayuda' },
-    { label: 'Sobre mí', route: '/sobre-mi' },
+    { label: 'Ayuda', route: '/#ayuda' },
+    { label: 'Sobre mí', route: '#sobre-mi' },
     { label: 'Cursos', route: '/cursos' },
-    { label: 'Contacto', route: '/contacto' },
+    { label: 'Contacto', route: '#contacto' },
   ])
 
   return (

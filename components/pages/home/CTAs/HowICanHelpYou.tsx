@@ -13,7 +13,7 @@ export const HowICanHelpYouSection = () => {
   const { current: items } = useRef(elements)
 
   return (
-    <section className='min-h-screen w-full py-20 px-4 bg-primary-300 text-center flex flex-col justify-center items-center'>
+    <section id='ayuda' className='min-h-screen w-full py-20 px-4 bg-primary-300 text-center flex flex-col justify-center items-center'>
       <div>
         <div className='text-3xl md:text-4xl'>
           <span className='text-white font-bold 3xl:text-6xl'>¿Cómo puedo ayudarte?</span>

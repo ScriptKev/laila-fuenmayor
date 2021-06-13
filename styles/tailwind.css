@@ -9,6 +9,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'hottemp';
   src: url('/fonts/hottemp/hottemp.otf');

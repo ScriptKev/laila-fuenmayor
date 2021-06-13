@@ -23,7 +23,7 @@ export const ContactSection = () => {
   }
 
   return (
-    <section className='w-full h-full py-30' style={{ backgroundColor: '#D5D1D5' }}>
+    <section id='contacto' className='w-full h-full py-30' style={{ backgroundColor: '#D5D1D5' }}>
       <form onSubmit={handleSubmit(onSubmit)} className='text-white body-font relative'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-col text-center w-full mb-12'>
